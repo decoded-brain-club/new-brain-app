@@ -1,1 +1,83 @@
-.DS_Store
+# macOS
+*.DS_Store
+
+# Build artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.i
+*.ii
+*.s
+*.su
+*.idb
+*.pdb
+*.mod
+*.cmd
+*.d
+*.a
+*.lib
+*.exp
+
+# Debug and release directories
+/debug/
+Debug/
+release/
+Release/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Visual Studio
+.vscode/
+.vs/
+*.sdf
+*.opensdf
+*.vcxproj*
+*.user
+*.aps
+*.ncb
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Other
+*.log
+*.tmp
+*.bak
+*.swp
+*.user
+*.pch
+*.tlog
+
+# Generated files
+*.gcno
+*.gcda
+*.gcov
+
+# Coverage and testing
+coverage/
+*.gcov.out
+*.gcda
+*.gcno
+test-results/
